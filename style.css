@@ -1,0 +1,29 @@
+*{
+    font-family: 'Bebas Neue', cursive;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(/Trivago.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    float: right;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.logo{
+    float: left;
+    padding: 14px 16px;
+    color: rgb(255, 166, 0);
+    font-size: 30px;
+}

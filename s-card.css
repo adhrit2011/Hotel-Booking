@@ -1,0 +1,40 @@
+.search-card-container{
+    padding: 100px 70px;
+}
+.search-card{
+    display: flex;
+    max-width: 300px;
+    background: white;
+    padding: 30px;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px gray;
+}
+.search-card-title{
+    font-size: 28px;
+    font-weight: 700px;
+}
+.form-group{
+    max-width: 100%;
+    margin-top: 10px;
+}
+.form-group>input,
+.form-group>select{
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 3px;
+    margin-right: 20px;
+}
+.form-group>.search-label{
+    margin-bottom: 7px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.search-btn{
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    background: black;
+    border-radius: 5px;
+}
